@@ -1,0 +1,343 @@
+
+.swiper-slide {
+width: 100;
+text-align: center;
+font-size: 18px;
+background: #fff;
+
+/* Center slide text vertically */
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+}
+
+.box{
+width:100%;
+height: 100%;
+display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+-webkit-box-pack: center;
+-ms-flex-pack: center;
+-ms-flex-align: center;
+-webkit-align-items: center;
+align-items: center;
+-webkit-justify-content: center;
+justify-content: center;
+-webkit-box-align: center;
+
+/*display: flex;
+align-items: center;
+justify-content: center;*/
+}
+.swiper-slide img{
+position:relative;left: 0;
+}
+ul {
+    list-style: none;
+}
+.nav_ul{
+    display: inline-block;padding: 0;
+}
+.nav_ul a:hover{
+    background: #272525;color: white;
+}
+.nav_ul li{
+   display:inline-block !important;
+}
+.nav_ul a{
+  font-size:20px;padding-top: 25px;padding-bottom: 25px;padding-left: 15px;padding-right: 15px;
+}
+.page-top{
+    width:100%;background-color:black;height:35px;border-bottom:solid 1px #e8e8e8; position: absolute;left: 0;top:0;
+}
+a{
+  text-decoration: none !important;color: black;
+}
+a:hover{
+    color: crimson;
+}
+.essay{
+    font-size: 14px;height:40px;overflow:hidden;-webkit-line-clamp:2;display:-webkit-box;-webkit-box-orient:vertical;
+}
+.news{
+    padding: 0;margin-bottom: 15px;
+}
+.news a{
+    color:black;width: 100%;
+}
+.news img, .territory img{
+    transition:1s;
+}
+.news img:hover , .territory img:hover{
+    opacity: 1;
+}
+.essay:hover, .new-title:hover ,.territory h3:hover{
+    color: crimson;
+}
+.territory h3{
+    font-size: 14px;margin-top:15px;color:black ;font-weight: bold;
+}
+.hr{
+    margin:0;padding: 0;background:black;opacity: 0.8;
+}
+.page-footer{
+    background: #272525;padding-top:10px;
+}
+.page-footer a{
+    color:white;
+}
+.page-footer span{
+    color:white;
+}
+.cooperative-partner-img{
+    display: none;padding-top: 15px;padding-bottom: 15px;
+}
+.masking{
+  width: 100%;z-index:8;position:fixed;top:0;left:0;opacity: 0.6;background: black;display: none;
+}
+.mobile_nav{
+    width:80%;background:#272525; position:fixed;top:0;right:-100%;z-index:9;transition:0.8s;
+}
+.mobile_nav ul{
+    margin-top: 50px;
+}
+.mobile_nav p{
+    float: right;color:snow;margin-top:15px;margin-right: 20px;font-size:26px;
+}
+.mobile_nav li{
+    margin-bottom: 10px;
+}
+.mobile_nav li a{
+   color: white;font-size: 16px;font-family:Playfair Display,serif;
+}
+.tabs a:hover{
+  background: #272525;color: #fff;
+}
+.tabs a{
+color: #fff;width: 100%;display: block;height:70px;line-height:70px;border-bottom: 1px solid #eee;
+}
+.companyprofile{
+    padding-top:15px;
+}
+.profile-text{
+    font-size: 22px; font-family:Playfair Display,serif;
+}
+#profile{
+    padding-right:0;display: none;
+}
+#environment{
+    display: none;
+}
+#environment img{
+   margin-bottom:3px;
+}
+#environment{
+    padding:0;
+}
+#environment img{
+   float: right;margin-left:3px;
+}
+.swiper-container{
+    margin-bottom:25px;
+}
+.iw_poi_title {
+    color:#CC5522;font-size:14px;font-weight:bold;overflow:hidden;padding-right:13px;white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;overflow:visible;padding-top:4px;white-space:-moz-pre-wrap;word-wrap:break-word
+}
+.BMap_Marker{
+    background: url(http://solostore.oss-cn-shanghai.aliyuncs.com/images/icon.png) no-repeat !important;
+}
+#dituContent{
+    height:600px;width:100%;
+}
+.map-container{
+   padding-right: 0;
+}
+#img-container{
+    padding-right:0;
+}
+#img-container a{
+   border:2px solid #eee;width:25%;display: block;float: left;
+}
+#img-container a img{
+   width: 100%;
+}
+#img-container a:hover{
+   border-color: crimson;
+}
+.product-container{
+    margin-top:20px;
+ }
+ select{
+  padding: 0;margin-top:10px; margin-bottom:10px;  outline: none;font-size: 14px;font-weight:bold;border:none;color:#fff;background: cornflowerblue;
+}
+select {
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+ 
+}
+.block-title{
+    font-weight: bold;font-family:Playfair Display,serif;
+}
+#previous-page ,#next-page{
+    cursor:pointer;
+}
+#previous-page:hover ,#next-page:hover{
+    color: crimson;
+}
+#projects-container{
+    padding-right: 0;
+}
+#projects-container a{
+   width: 100%;
+}
+#projects-container a img{
+   width: 100%;margin-bottom: 15px;
+}
+#news{
+    padding-right: 0;display: none;
+}
+#news a{
+    padding-right: 0;
+}
+#essay{
+    display:none;
+}
+#essay span{
+    font-family:Playfair Display,serif;
+}
+.nav-container{
+    height: 130px;
+}
+@media (min-width: 768px) and (max-width:1200px) { 
+    .nav_ul a{
+        font-size:16px;
+    }
+  
+ }
+@media (min-width: 768px) and (max-width:1030px) { 
+    .nav-container{
+    text-align: center;
+    } 
+    .nav_ul{
+       margin-top: 10px;
+    }
+ }
+@media (min-width: 320px) and (max-width:767px){
+
+body{
+    font-family:Playfair Display,serif;
+   }
+.slide-container{
+    padding: 0;
+}
+.swiper-container{
+    margin: 0;
+}
+.item{
+       background: #272525;
+   }
+.item a{
+       color: white;
+
+   }
+.territory h3{
+    color:white;
+    }
+.companyprofile{
+    padding:15px;background: #272525;
+}
+.profile-text{
+    font-size:16px;color: white;
+}
+#profile{
+    padding: 0;margin-top:15px;
+}
+#environment{
+    padding: 0;margin-top:15px;
+}
+#environment img{
+    width: 100%;
+}
+.block-title{
+    margin-top:10px;font-size: 18px;font-weight: bold; font-family:Playfair Display,serif;
+}
+#dituContent{
+    height: 350px;
+}
+.map-container{
+    padding: 0;margin-top: 15px;
+}
+.map-container h4{
+    color: white;
+}
+#img-container{
+    padding: 0;
+}
+#img-container a{
+   width:50%;margin: 0;border:2px solid #eee;
+ }
+ 
+.product-container{
+     padding: 0;margin-top:0px;
+ }
+ .page-turning{
+     position: fixed;bottom: 0;left: 0;background: dodgerblue;z-index: 3;color: white;height:50px;line-height:52px;padding:0;
+ }
+ #previous-page ,#next-page{
+    display: block;width:30%;float: left;text-align: center;padding:0 !important;
+}
+#before-one-page{
+    display: block;width:40%;float: left;text-align: center;padding:0 !important;
+}
+#previous-page ,#before-one-page{
+border-right: solid 1px #fff;
+}
+#projects-container{
+    padding: 0;
+}
+#news{
+    padding:0;
+}
+#news a{
+    padding: 0;margin-bottom: 10px;
+}
+#essay span ,#essay h3{
+    color: white;
+}
+#essay span{
+     padding: 0;
+}
+.news_img{
+    width:100%;
+}
+}
+@media (min-width: 1650px){
+    #img-container a{
+       width:20%;
+    }
+}
+@media (min-width: 768px) and (max-width:1199px){
+    #img-container a{
+       width:33%;
+    }
+}
+@media (min-width:1200px) and (max-width:1649px){
+    #img-container a{
+       width:25%;
+    }
+}
